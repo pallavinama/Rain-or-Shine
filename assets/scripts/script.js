@@ -7,12 +7,23 @@ $(document).ready(function() {
     transition: 800
   });
   //   End slider script
+  
+  // Hide Content/Show Content toggle
+  $("#results-page-nav").on("click", function(event) {
+    event.preventDefault()
+    $("#results-page-master").removeClass("hide")
+    $("#results-page-master").addClass("show")
+    $("#landing-page-master").addClass("hide")
+  });
+  
+
+
 
   //Character Counter Script
   
-  $(document).ready(function() {
+  
     $('input#zipCode').characterCounter();
-  });
+  
 
   // End Character Counter Script
 });
