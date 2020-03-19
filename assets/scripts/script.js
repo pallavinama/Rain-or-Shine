@@ -12,7 +12,6 @@ $(document).ready(function() {
   $("#results-page-nav").on("click", function(event) {
     event.preventDefault()
     $("#results-page-master").removeClass("hide")
-    $("#results-page-master").addClass("show")
     $("#landing-page-master").addClass("hide")
   });
   
