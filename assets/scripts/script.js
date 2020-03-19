@@ -7,9 +7,7 @@ $(document).ready(function() {
     transition: 800
   });
   //   End slider script
-  // Collapse Script
-  $(".collapsible").collapsible();
-  // End Collapse Script
+
   //Character Counter Script
   
   $(document).ready(function() {
