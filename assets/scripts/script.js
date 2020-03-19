@@ -10,4 +10,11 @@ $(document).ready(function() {
   // Collapse Script
   $(".collapsible").collapsible();
   // End Collapse Script
+  //Character Counter Script
+  
+  $(document).ready(function() {
+    $('input#zipCode').characterCounter();
+  });
+
+  // End Character Counter Script
 });
