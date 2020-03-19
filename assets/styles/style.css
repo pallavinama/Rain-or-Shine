@@ -5,3 +5,20 @@ h3 {
 .grey-text.text-lighten-3 {
     color: #02ffff !important;
 }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.activity {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: salmon; 
+  padding: 20px;
+}
