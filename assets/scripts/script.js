@@ -11,10 +11,18 @@ $(document).ready(function() {
   // Hide Content/Show Content toggle
   $("#results-page-nav").on("click", function(event) {
     event.preventDefault()
-    $("#results-page-master").removeClass("hide")
+
     $("#landing-page-master").addClass("hide")
+    $("#results-page-master").removeClass("hide")
   });
   
+  // Hide Content/Show Content toggle
+  $("#landing-page-nav").on("click", function(event) {
+    event.preventDefault()
+    
+    $("#results-page-master").addClass("hide")
+    $("#landing-page-master").removeClass("hide")
+  });
 
 
 

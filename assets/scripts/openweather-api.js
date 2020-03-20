@@ -2,7 +2,7 @@
         // OpenWeather API - Inputs
         var appidInput = "54a9099a651206645d31affb6bbd4e54"; // API key
         var qInput = ""; // city name | Ex: ["Atlanta", "Telluride", "New York City", "Nashville"]
-        var zipInput = $("#zipCode").val(); // zip code | Ex: [30188, 94040, 72201, 80239]
+        var zipInput = ""; // zip code | Ex: [30188, 94040, 72201, 80239]
         var unitsInput = "imperial"; // temperature units | Ex: [default:Kelvin, imperial:Fahreneit, metric:Celsius]
 
         // OpenWeather API - Conditions
