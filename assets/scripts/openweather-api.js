@@ -45,18 +45,21 @@
                 url: queryUrl_currentWeatherAtZIP,
                 method: "GET"
             }).then(function(response) {
-                // console.log("Weather at zip: ", response);
+                console.log("Weather at zip: ", response);
                 // console.log("     City name: ", response.name);
                 // console.log("  Today's date: ", moment().format("l"));
+                // console.log("          Main: ", response.weather[0].main);
                 // console.log("  Weather icon: ", iconFilePath + response.weather[0].icon + iconFileType);
                 // console.log("   Temperature: ", response.main.temp);
                 // console.log("   Description: ", response.weather[0].description);
                 
+                
                 $("#city-name").text("City: " + response.name);
                 $("#date").text("Today: " + moment().format("l"));
+                $("#main").text("Main: " + response.weather[0].main);
                 $("#weather-icon").append($("<img>").attr("src", iconFilePath + response.weather[0].icon + iconFileType).attr("alt", "icon"));
                 $("#temperature").text("Temperature: " + response.main.temp + " °F");
-                $("#description").text("Description: " + response.weather[0].description);
+                $("#description").text(response.weather[0].description);
             });
         }
 
