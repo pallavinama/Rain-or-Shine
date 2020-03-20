@@ -10,18 +10,24 @@ $(document).ready(function() {
   
   // Hide Content/Show Content toggle
   $("#results-page-nav").on("click", function(event) {
-    event.preventDefault()
+    event.preventDefault();
 
-    $("#landing-page-master").addClass("hide")
-    $("#results-page-master").removeClass("hide")
+    if ($("#zipCode").val().length === 5 && $.isNumeric($("#zipCode").val())){
+      $("#landing-page-master").addClass("hide");
+      $("#results-page-master").removeClass("hide");
+      ajaxCallOpenWeatherAtZipCode($("#zipCode").val());
+    } else {
+      return; // do nothing
+    }
   });
   
   // Hide Content/Show Content toggle
   $("#landing-page-nav").on("click", function(event) {
     event.preventDefault()
-    
-    $("#results-page-master").addClass("hide")
-    $("#landing-page-master").removeClass("hide")
+
+    $("#results-page-master").addClass("hide") // hide the results page
+    $("#landing-page-master").removeClass("hide") // show the landing page
+    $("#zipCode").on("click focusin", function() {this.value = "";}); // On focus, clear the input    
   });
 
 
