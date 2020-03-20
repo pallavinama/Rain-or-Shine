@@ -1,9 +1,11 @@
 h3 {
-  color: rgb(4, 247, 255);
+  font-weight: bolder;
+  color: white;
 }
 
 .grey-text.text-lighten-3 {
-  color: #02ffff !important;
+  font-weight: bolder;
+  color: white !important;
 }
 
 body {
@@ -31,4 +33,39 @@ footer {
   border-width: 5px;
   border-color: salmon; 
   padding: 20px;
+}
+
+.caption {
+  font-weight: bolder;
+  color: white;
+  opacity: 75%;
+  text-shadow:
+   -1px -1px 0 salmon,  
+    1px -1px 0 salmon,
+    -1px 1px 0 salmon,
+     1px 1px 0 salmon;
+}
+
+.home-page-image {
+  width: 416px;
+  height: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+#first-content-block {
+  border: 2px solid salmon;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#second-content-block {
+  border: 2px solid salmon;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 75px;
 }
