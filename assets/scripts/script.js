@@ -8,25 +8,20 @@ $(document).ready(function() {
   });
   //   End slider script
   
-  // Hide Content/Show Content toggle
+  // Hide Content/Show Content toggle - Enter New zipcode button on results page
   $("#landing-page-nav").on("click", function(event) {
     console.log("testing results page button block");
     event.preventDefault()
+    // Clearing Previously Entered ZipCode
+    $("#zipCode").val("");
     $("#landing-page-master").removeClass("hide")
     $("#results-page-master").addClass("hide")
   });
   
  
-
-
-
-  //Character Counter Script
-  
-  
-    $('input#zipCode').characterCounter();
-  
-
-  // End Character Counter Script
+//Character Counter Script
+ $('input#zipCode').characterCounter();
+// End Character Counter Script
 
    
   // Global Variable Declaration
