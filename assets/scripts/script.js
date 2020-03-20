@@ -9,20 +9,14 @@ $(document).ready(function() {
   //   End slider script
   
   // Hide Content/Show Content toggle
-  // $("#results-page-nav").on("click", function(event) {
-  //   event.preventDefault()
-
-  //   $("#landing-page-master").addClass("hide")
-  //   $("#results-page-master").removeClass("hide")
-  // });
-  
-  Hide Content/Show Content toggle
   $("#landing-page-nav").on("click", function(event) {
+    console.log("testing results page button block");
     event.preventDefault()
-    
-    $("#results-page-master").addClass("hide")
     $("#landing-page-master").removeClass("hide")
+    $("#results-page-master").addClass("hide")
   });
+  
+ 
 
 
 
@@ -41,7 +35,6 @@ $(document).ready(function() {
 
   // ZIP Code Validation Script
  
-
   var submitButton = $("#results-page-nav");
   var reg = /^[0-9]+$/;
   // On click Event Handler
@@ -50,17 +43,16 @@ $(document).ready(function() {
       event.preventDefault();
       var zipErrors = new Array();
       var tempzipCode = $("#zipCode").val().trim();
-        // console.log("zipcode is = "+tempzipCode); 
-        // $('input#zipCode').characterCounter();
+        
       if (tempzipCode != "")
       {
           if (tempzipCode.length != 5) {
-            //console.log("Please enter 5 digit zip code");
+            
             zipErrors[zipErrors.length] = "Please enter 5 digit ZIP Code";
           }
          
           if (!reg.test(tempzipCode)) {
-            //console.log("zipcode should contain numbers only");
+            
             zipErrors[zipErrors.length] = "ZIP Code should contain numbers only";
           }
 
@@ -82,6 +74,7 @@ $(document).ready(function() {
             p1.html(errorString);
             firstContent.append(p1);      
           } else {
+            console.log("Entering else block");
             $("#landing-page-master").addClass("hide")
             $("#results-page-master").removeClass("hide")
             $("#first-error-p").remove();
