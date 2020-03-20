@@ -32,3 +32,27 @@ footer {
   border-color: salmon; 
   padding: 20px;
 }
+
+.home-page-image {
+  width: 416px;
+  height: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+#first-content-block {
+  border: 2px solid salmon;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#second-content-block {
+  border: 2px solid salmon;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
