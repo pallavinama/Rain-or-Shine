@@ -7,14 +7,22 @@ $(document).ready(function() {
     transition: 800
   });
   //   End slider script
-  // Collapse Script
-  $(".collapsible").collapsible();
-  // End Collapse Script
+  
+  // Hide Content/Show Content toggle
+  $("#results-page-nav").on("click", function(event) {
+    event.preventDefault()
+    $("#results-page-master").removeClass("hide")
+    $("#landing-page-master").addClass("hide")
+  });
+  
+
+
+
   //Character Counter Script
   
-  $(document).ready(function() {
+  
     $('input#zipCode').characterCounter();
-  });
+  
 
   // End Character Counter Script
 });
