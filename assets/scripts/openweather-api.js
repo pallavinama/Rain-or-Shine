@@ -57,7 +57,7 @@
                 $("#city-name").text("City: " + response.name);
                 $("#date").text("Today: " + moment().format("l"));
                 $("#main").text("Main: " + response.weather[0].main);
-                $("#weather-icon").append($("<img>").attr("src", iconFilePath + response.weather[0].icon + iconFileType).attr("alt", "icon"));
+                $("#weather-icon").html($("<img>").attr("src", iconFilePath + response.weather[0].icon + iconFileType).attr("alt", "icon"));
                 $("#temperature").text("Temperature: " + response.main.temp + " °F");
                 $("#description").text(response.weather[0].description);
             });
