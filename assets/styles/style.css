@@ -12,6 +12,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-image: url("../images/white-waves.png");
 }
 
 main {
@@ -33,6 +34,7 @@ footer {
   border-width: 5px;
   border-color: salmon; 
   padding: 20px;
+  background-color: white;
 }
 
 .caption {
@@ -61,6 +63,7 @@ footer {
   margin-top: 50px;
   padding: 20px;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 #second-content-block {
@@ -68,4 +71,5 @@ footer {
   border-radius: 25px;
   margin-top: 50px;
   margin-bottom: 75px;
+  background-color: white;
 }
