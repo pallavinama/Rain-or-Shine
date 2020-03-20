@@ -47,8 +47,8 @@ footer {
 }
 
 .home-page-image {
-  width: 416px;
-  height: 250px;
+  width: 100%;
+  height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 25px;
