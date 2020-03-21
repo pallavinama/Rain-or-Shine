@@ -73,6 +73,7 @@ $(document).ready(function() {
             $("#landing-page-master").addClass("hide")
             $("#results-page-master").removeClass("hide")
             $("#first-error-p").remove();
+            ajaxCallOpenWeatherAtZipCode($("#zipCode").val());
           }
       };
 });
