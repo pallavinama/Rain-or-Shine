@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Rise and Shine</title>
+    <title>Rain-or-Shine</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -45,9 +45,9 @@
                 />
                 <!-- group board game image -->
                 <div class="caption left-align">
-                  <h3>Based on where you are,</h3>
+                  <h3>Based on your local weather,</h3>
                   <h3 class="light grey-text text-lighten-3">
-                    we will give you suggestions based on your weather!
+                    Rain-or-Shine provides a tailored list of activities!
                   </h3>
                 </div>
               </li>
@@ -58,7 +58,7 @@
                 />
                 <!-- cooking image -->
                 <div class="caption right-align">
-                  <h3>Pick your favorites!</h3>
+                  <h3>Pick your favorites</h3>
                   <h3 class="light grey-text text-lighten-3">
                     or reshuffle if those options aren't for you!
                   </h3>
@@ -71,7 +71,7 @@
                   />
                 <!-- rock climbing image -->
                 <div class="caption center-align">
-                  <h3>Find a new hobby or gain a skill,</h3>
+                  <h3>Find a new hobby, gain a skill, or just relax,</h3>
                   <h3 class="light grey-text text-lighten-3">
                     it's up to you!
                   </h3>
@@ -89,17 +89,16 @@
             <h4>Enter you zip code below to find activities based on your local weather!</h4>
             <br>
             <br>
-            <br>
             <div class="row">
               <form class="col s12">
                 <div class="row">
                   <div class="input-field col s6">
                     <input id="zipCode" type="text" data-length="5" />
                     <label for="zipCode">5 digit zip code</label>
-                  </div>
+                  </div> 
                 </div>
+                <button id="results-page-nav" class="waves-effect waves-teal btn">SUBMIT</button>
               </form>
-              <button id="results-page-nav" class="btn">SUBMIT</button>
             </div>
           </div>
 
@@ -133,7 +132,7 @@
             </div>
           </div>
         </div>
-        <button id="landing-page-nav" class="btn">
+        <button id="landing-page-nav" class="waves-effect waves-teal btn">
           Enter New Zip Code
         </button>
         <div id="content-row" class="row">
@@ -148,14 +147,15 @@
             <div>
               <h6>
                 Don't like what you see? Reshuffle your options:
-                <button
+              </h6>
+              
+            </div>
+            <button
                   id="reshuffle-button"
-                  class="waves-effect waves-teal btn-flat"
+                  class="waves-effect waves-teal btn"
                 >
                   Reshuffle
                 </button>
-              </h6>
-            </div>
           </div>
 
           <!-- column for empty space between column -->
