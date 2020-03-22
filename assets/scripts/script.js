@@ -77,7 +77,8 @@ $(document).ready(function() {
           }
       };
   });
+  var reshuffleButton = $("#reshuffle-button");
+  reshuffleButton.on("click", function(){
+    ajaxCallOpenWeatherAtZipCode($("#zipCode").val());
+  });
 });
- 
-
- 
