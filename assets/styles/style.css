@@ -23,6 +23,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .footer-copyright {
@@ -77,7 +78,6 @@ footer {
 #first-results-block {
   border: 2px solid salmon;
   border-radius: 25px;
-  margin-top: 50px;
   padding: 20px;
   margin-bottom: 20px;
   background-color: white;
@@ -89,4 +89,52 @@ footer {
 
 #reshuffle-button {
   margin-top: 5px;
+}
+#landing-page-nav {
+  margin-top: 5px;
+}
+#description {
+  color: teal;
+}
+
+#weather-results {
+  text-align: left;
+  border: 2px solid salmon;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  background-image: linear-gradient(rgba(203, 238, 255, 0.5), rgba(255, 255, 255, 0.5));
+  
+  
+}
+#weather-title {
+  color: teal;
+   
+}
+
+#city-name {
+  text-align: left;
+  font-size: x-large;
+}
+#date {
+  text-align: left;
+  font-size: x-large;
+
+}
+#main {
+  text-align: left;
+  font-size: x-large;
+
+}
+#weather-icon {
+  text-align: left;
+  font-size: x-large;
+
+}
+#temperature {
+  text-align: left;
+  font-size: x-large;
+
 }

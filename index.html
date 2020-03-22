@@ -28,7 +28,7 @@
               <li>
                 <img
                   src="https://ak1.picdn.net/shutterstock/videos/11457791/thumb/1.jpg"
-                  alt ="people having a picnic"
+                  alt="people having a picnic"
                 />
                 <!-- group park image -->
                 <div class="caption center-align">
@@ -41,7 +41,7 @@
               <li>
                 <img
                   src="assets/images/board-game-players.jpg"
-                  alt = "people playing yahtzee"
+                  alt="people playing yahtzee"
                 />
                 <!-- group board game image -->
                 <div class="caption left-align">
@@ -54,7 +54,7 @@
               <li>
                 <img
                   src="assets/images/group-of-person-walking-in-mountain-1365425.jpg"
-                  alt = "group of hikers"
+                  alt="group of hikers"
                 />
                 <!-- cooking image -->
                 <div class="caption right-align">
@@ -67,8 +67,8 @@
               <li>
                 <img
                   src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2018%2F08%2F03201112%2Fwide-indoor-rock-climbing.jpg&q=85"
-                  alt = "woman rock climbing indoors"
-                  />
+                  alt="woman rock climbing indoors"
+                />
                 <!-- rock climbing image -->
                 <div class="caption center-align">
                   <h3>Find a new hobby, gain a skill, or just relax,</h3>
@@ -86,33 +86,49 @@
           <!-- column for first box -->
           <div id="first-content-block" class="col s5">
             <!-- Box 1 content -->
-            <h4>Enter you zip code below to find activities based on your local weather!</h4>
-            <br>
-            <br>
+            <h4>
+              Enter you zip code below to find activities based on your local
+              weather!
+            </h4>
+            <br />
+            <br />
             <div class="row">
               <form class="col s12">
                 <div class="row">
                   <div class="input-field col s6">
                     <input id="zipCode" type="text" data-length="5" />
                     <label for="zipCode">5 digit zip code</label>
-                  </div> 
+                  </div>
                 </div>
-                <button id="results-page-nav" class="waves-effect waves-teal btn">SUBMIT</button>
+                <button
+                  id="results-page-nav"
+                  class="waves-effect waves-teal btn"
+                >
+                  SUBMIT
+                </button>
               </form>
             </div>
           </div>
 
-            <!-- column for empty space between column -->
-            <div class="col s2"></div>
+          <!-- column for empty space between column -->
+          <div class="col s2"></div>
 
-            <!-- column for second box -->
-            <div id="second-content-block" class="col s5">
-              <!-- Box 2 content -->
-              <img src="https://img-vimbly-com-images.imgix.net/full_photos/pottery-2.jpg?auto=compress&fit=crop&h=490&ixlib=php-1.2.1&w=730" class="home-page-image">
-              <img src="https://www.liveabout.com/thmb/EcienaHZR92vpLIBHVgLhuIlL1o=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-487209503-581445155f9b581c0b2cb736.jpg" class="home-page-image">
-              <img src="https://c.stocksy.com/a/RAF700/z9/1726603.jpg" class="home-page-image">
-            </div>
-
+          <!-- column for second box -->
+          <div id="second-content-block" class="col s5">
+            <!-- Box 2 content -->
+            <img
+              src="https://img-vimbly-com-images.imgix.net/full_photos/pottery-2.jpg?auto=compress&fit=crop&h=490&ixlib=php-1.2.1&w=730"
+              class="home-page-image"
+            />
+            <img
+              src="https://www.liveabout.com/thmb/EcienaHZR92vpLIBHVgLhuIlL1o=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-487209503-581445155f9b581c0b2cb736.jpg"
+              class="home-page-image"
+            />
+            <img
+              src="https://c.stocksy.com/a/RAF700/z9/1726603.jpg"
+              class="home-page-image"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -123,39 +139,38 @@
           <!-- Slider Content here -->
           <div class="slider">
             <div id="weather-results" class="slide">
-              <h1>Weather Results from API to be Posted here</h1>
-              <div id="city-name"></div>
-              <div id="date"></div>
-              <div id="main"></div>
-              <div id="weather-icon"></div>
-              <div id="temperature"></div>
+              <h4 id="weather-title"><strong>Local weather Report:</strong></h4>
+              <h6 id="city-name"></h6>
+              <h6 id="date"></h6>
+              <h6 id="main"></h6>
+              <h6 id="weather-icon"></h6>
+              <h6 id="temperature"></h6>
             </div>
           </div>
         </div>
-        <button id="landing-page-nav" class="waves-effect waves-teal btn">
-          Enter New Zip Code
-        </button>
+
         <div id="content-row" class="row">
           <!-- column for first box -->
           <div id="first-results-block" class="col s5">
             <!-- Box 1 content -->
             <h4>
               Because the weather is <br />
-              <span id="description">       </span><br />
+              <span id="description"></span><br />
               You can try these activities:
             </h4>
+            <br/>
+            <br/>
             <div>
-              <h6>
-                Don't like what you see? Reshuffle your options:
-              </h6>
-              
+              <p>
+                Don't like what you see? Change your options:
+              </p>
             </div>
-            <button
-                  id="reshuffle-button"
-                  class="waves-effect waves-teal btn"
-                >
-                  Reshuffle
-                </button>
+              <button id="reshuffle-button" class="waves-effect waves-teal btn">
+                Reshuffle Activities
+              </button>
+              <button id="landing-page-nav" class="waves-effect waves-teal btn">
+                Enter New Zip Code
+              </button>
           </div>
 
           <!-- column for empty space between column -->
