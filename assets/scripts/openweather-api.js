@@ -136,7 +136,7 @@
                                             "1668223", "7265395", "6197243", "8253550", "3192099", "2715253", "2742452", "4708863",
                                             "4296813", "9216391", "5675880", "3136729", "4179309", "2735499", "9999999", "4379552",
                                             "1592381", "1645485", "1516976 "];
-                    let queryUrl = "http://www.boredapi.com/api/";
+                    let queryUrl = "https://www.boredapi.com/api/";
                     let activity = "activity";
                     let queryUrl_activity = queryUrl.concat(activity);
                     let randomIndoorActivityKey = function randomActivity(array) {
