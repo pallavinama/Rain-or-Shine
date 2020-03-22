@@ -78,7 +78,6 @@ footer {
 #first-results-block {
   border: 2px solid salmon;
   border-radius: 25px;
-  margin-top: 50px;
   padding: 20px;
   margin-bottom: 20px;
   background-color: white;
@@ -106,10 +105,13 @@ footer {
   padding: 20px;
   margin-bottom: 20px;
   background-color: white;
+  background-image: linear-gradient(rgba(203, 238, 255, 0.5), rgba(255, 255, 255, 0.5));
+  
+  
 }
 #weather-title {
   color: teal;
-  text-emphasis: bold; 
+   
 }
 
 #city-name {
