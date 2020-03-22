@@ -24,7 +24,7 @@
         var maxaccessibility = "?maxaccessibility=" + maxaccessibilityInput;
 
         // Bored API - Queries: Do Not Modify
-        var queryUrl = "http://www.boredapi.com/api/";
+        var queryUrl = "https://www.boredapi.com/api/";
         var queryUrl_activity = queryUrl.concat(activity);
 
         // Bored API - Queries: Available for Use
