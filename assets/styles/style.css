@@ -90,3 +90,13 @@ footer {
 #reshuffle-button {
   margin-top: 5px;
 }
+
+#weather-results {
+  text-align: center;
+  border: 2px solid salmon;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
