@@ -99,11 +99,40 @@ footer {
 }
 
 #weather-results {
-  text-align: center;
+  text-align: left;
   border: 2px solid salmon;
   border-radius: 25px;
   margin-top: 50px;
   padding: 20px;
   margin-bottom: 20px;
   background-color: white;
+}
+#weather-title {
+  color: teal;
+  text-emphasis: bold; 
+}
+
+#city-name {
+  text-align: left;
+  font-size: x-large;
+}
+#date {
+  text-align: left;
+  font-size: x-large;
+
+}
+#main {
+  text-align: left;
+  font-size: x-large;
+
+}
+#weather-icon {
+  text-align: left;
+  font-size: x-large;
+
+}
+#temperature {
+  text-align: left;
+  font-size: x-large;
+
 }
