@@ -94,6 +94,9 @@ footer {
 #landing-page-nav {
   margin-top: 5px;
 }
+#description {
+  color: teal;
+}
 
 #weather-results {
   text-align: center;
