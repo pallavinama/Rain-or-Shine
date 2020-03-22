@@ -32,10 +32,13 @@ footer {
 
 .activity {
   border-style: dashed;
-  border-width: 5px;
+  border-width: 2px;
   border-color: salmon; 
-  padding: 20px;
+  padding: 15px;
   background-color: white;
+  border-radius: 25px;
+  color: teal;
+  font-style: italic;
 }
 
 .caption {
