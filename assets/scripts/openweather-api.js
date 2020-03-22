@@ -24,7 +24,7 @@
         var maxaccessibility = "?maxaccessibility=" + maxaccessibilityInput;
 
         // Bored API - Queries: Do Not Modify
-        var queryUrl = "http://www.boredapi.com/api/";
+        var queryUrl = "https://www.boredapi.com/api/";
         var queryUrl_activity = queryUrl.concat(activity);
 
         // Bored API - Queries: Available for Use
@@ -67,7 +67,7 @@
         var q = "?q=" + qInput;
         var zip = "?zip=" + zipInput;
         var units = "&units=" + unitsInput;
-        var iconFilePath = "http://openweathermap.org/img/w/";
+        var iconFilePath = "https://openweathermap.org/img/w/";
         var iconFileType = ".png";
 
         // OpenWeather API - Queries: Do Not Modify
