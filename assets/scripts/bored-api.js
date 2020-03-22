@@ -42,10 +42,23 @@
         var queryUrl_constrainAccessibility = queryUrl_activity.concat(minaccessibility).concat("&").concat(maxaccessibility); // Find an event with a specified constrained accessibility
 
         // Bored API - Calls
+
+        // Call: activity based retured weather
+        // if rain or other inclement weather, limit typeInput to 
+        // education - no prevention
+        // recreational - prevent {key: 6813070, 8503795, 8724324, 1934228, 6852505, 3149232}
+        // social - prevent {key: 1505028, 4558850, 2085321, 2211716, 1432113}
+        // diy - prevent {key: 8631548}
+        // charity - prevent {key: 4894697}
+        // cooking - no prevention
+        // relaxation - prevent {key: 5940465, 8979931, 4290333, 9318514}
+        // music - no prevention
+        // busywork - prevent {key: 1592381}
+
         $.ajax({
-            url: queryUrl_randomActivity,
+            url: queryUrl_type,
             method: "GET"
         }).then(function(response) {
-            // console.log(response);
+            console.log(response);
         });
         
