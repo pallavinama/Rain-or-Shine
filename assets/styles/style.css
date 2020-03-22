@@ -23,6 +23,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .footer-copyright {
@@ -88,6 +89,9 @@ footer {
 }
 
 #reshuffle-button {
+  margin-top: 5px;
+}
+#landing-page-nav {
   margin-top: 5px;
 }
 
