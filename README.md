@@ -14,7 +14,7 @@ After our team got the idea, we began with a wireframe to see how we would want 
 ![picture](img/Screen Shot 2020-03-22 at 5.36.59 PM)
 
 # Repository Link
-https://github.com/j-senak/Homework-6-weatherdashboard
+https://github.com/fmiusov/Rain-or-Shine
 
 # Deployed Site
 https://fmiusov.github.io/Rain-or-Shine/
