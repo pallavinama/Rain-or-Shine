@@ -14,7 +14,7 @@ After our team got the idea, we began with a wireframe to see how we would want 
 ![activities](/assets/images/ss4.png)
 
 # Repository Link
-https://github.com/fmiusov/Rain-or-Shine
+https://github.com/pallavinama/Rain-or-Shine
 
 # Deployed Site
-https://fmiusov.github.io/Rain-or-Shine/
+https://pallavinama.github.io/Rain-or-Shine/
